@@ -1,0 +1,210 @@
+{
+  "data": {
+    "source": "Open-Meteo archive (ERA5), Paris",
+    "first_day": "1991-01-01",
+    "last_day": "2026-10-19",
+    "days": 13067
+  },
+  "model": {
+    "warming_trend_C_per_decade": 0.504,
+    "ar_order_bic": 3,
+    "ar_coefficients": [
+      0.9495,
+      -0.2505,
+      0.0889
+    ],
+    "daily_vol_winter_C": 2.11,
+    "daily_vol_summer_C": 1.82,
+    "residual_acf_lag1_before": 0.801,
+    "residual_acf_lag1_after": -0.003,
+    "z_skew": 0.122,
+    "z_excess_kurtosis": 0.166
+  },
+  "pricing": {
+    "season": "2026-27",
+    "hdd_mean": 1660.1,
+    "hdd_std": 114.7,
+    "hdd_q05": 1472.9,
+    "hdd_q95": 1848.1,
+    "strike": 1660.0,
+    "tick_eur": 20.0,
+    "call_price_eur": 902.0,
+    "call_price_se_eur": 9.0,
+    "call_price_lambda_0.05_eur": 1776.0,
+    "burn_raw_price_eur": 2928.0,
+    "burn_detrended_price_eur": 1037.0,
+    "burn_raw_hdd_mean": 1796.7,
+    "burn_detrended_hdd_mean": 1659.6
+  },
+  "backtest": {
+    "fit_until": "2010-10-31",
+    "seasons": 16,
+    "coverage_90": 0.875,
+    "mean_pit": 0.39,
+    "rmse_model": 120.4,
+    "rmse_burn_raw": 148.6,
+    "rmse_burn_detrended": 121.9,
+    "table": [
+      {
+        "season": "2010-11",
+        "realised": 1945.8,
+        "model_mean": 1802.9,
+        "model_q05": 1606.9,
+        "model_q95": 2001.1,
+        "pit": 0.9,
+        "burn_raw": 1845.0,
+        "burn_detrended": 1810.5
+      },
+      {
+        "season": "2011-12",
+        "realised": 1700.3,
+        "model_mean": 1800.1,
+        "model_q05": 1605.9,
+        "model_q95": 1993.8,
+        "pit": 0.2,
+        "burn_raw": 1850.1,
+        "burn_detrended": 1813.8
+      },
+      {
+        "season": "2012-13",
+        "realised": 1989.7,
+        "model_mean": 1817.2,
+        "model_q05": 1623.3,
+        "model_q95": 2011.5,
+        "pit": 0.9,
+        "burn_raw": 1843.0,
+        "burn_detrended": 1804.9
+      },
+      {
+        "season": "2013-14",
+        "realised": 1685.6,
+        "model_mean": 1804.3,
+        "model_q05": 1612.5,
+        "model_q95": 1995.5,
+        "pit": 0.2,
+        "burn_raw": 1849.6,
+        "burn_detrended": 1809.8
+      },
+      {
+        "season": "2014-15",
+        "realised": 1821.6,
+        "model_mean": 1783.8,
+        "model_q05": 1588.8,
+        "model_q95": 1971.2,
+        "pit": 0.6,
+        "burn_raw": 1842.5,
+        "burn_detrended": 1801.0
+      },
+      {
+        "season": "2015-16",
+        "realised": 1589.6,
+        "model_mean": 1788.5,
+        "model_q05": 1596.5,
+        "model_q95": 1984.1,
+        "pit": 0.0,
+        "burn_raw": 1841.6,
+        "burn_detrended": 1798.4
+      },
+      {
+        "season": "2016-17",
+        "realised": 1839.9,
+        "model_mean": 1783.7,
+        "model_q05": 1592.2,
+        "model_q95": 1978.8,
+        "pit": 0.7,
+        "burn_raw": 1831.5,
+        "burn_detrended": 1786.6
+      },
+      {
+        "season": "2017-18",
+        "realised": 1865.2,
+        "model_mean": 1796.9,
+        "model_q05": 1604.3,
+        "model_q95": 1989.8,
+        "pit": 0.7,
+        "burn_raw": 1831.9,
+        "burn_detrended": 1785.2
+      },
+      {
+        "season": "2018-19",
+        "realised": 1723.1,
+        "model_mean": 1793.4,
+        "model_q05": 1600.4,
+        "model_q95": 1993.6,
+        "pit": 0.3,
+        "burn_raw": 1833.1,
+        "burn_detrended": 1784.7
+      },
+      {
+        "season": "2019-20",
+        "realised": 1640.9,
+        "model_mean": 1780.4,
+        "model_q05": 1589.1,
+        "model_q95": 1975.2,
+        "pit": 0.1,
+        "burn_raw": 1829.2,
+        "burn_detrended": 1779.0
+      },
+      {
+        "season": "2020-21",
+        "realised": 1717.0,
+        "model_mean": 1769.9,
+        "model_q05": 1571.6,
+        "model_q95": 1965.0,
+        "pit": 0.3,
+        "burn_raw": 1822.7,
+        "burn_detrended": 1770.8
+      },
+      {
+        "season": "2021-22",
+        "realised": 1751.3,
+        "model_mean": 1764.4,
+        "model_q05": 1569.5,
+        "model_q95": 1959.1,
+        "pit": 0.5,
+        "burn_raw": 1819.1,
+        "burn_detrended": 1765.5
+      },
+      {
+        "season": "2022-23",
+        "realised": 1689.4,
+        "model_mean": 1754.3,
+        "model_q05": 1565.9,
+        "model_q95": 1943.2,
+        "pit": 0.3,
+        "burn_raw": 1817.0,
+        "burn_detrended": 1761.6
+      },
+      {
+        "season": "2023-24",
+        "realised": 1577.8,
+        "model_mean": 1762.1,
+        "model_q05": 1574.5,
+        "model_q95": 1956.8,
+        "pit": 0.1,
+        "burn_raw": 1813.0,
+        "burn_detrended": 1755.9
+      },
+      {
+        "season": "2024-25",
+        "realised": 1748.4,
+        "model_mean": 1757.5,
+        "model_q05": 1561.2,
+        "model_q95": 1953.3,
+        "pit": 0.5,
+        "burn_raw": 1805.8,
+        "burn_detrended": 1747.1
+      },
+      {
+        "season": "2025-26",
+        "realised": 1542.0,
+        "model_mean": 1749.9,
+        "model_q05": 1556.5,
+        "model_q95": 1942.5,
+        "pit": 0.0,
+        "burn_raw": 1804.2,
+        "burn_detrended": 1743.6
+      }
+    ]
+  }
+}
